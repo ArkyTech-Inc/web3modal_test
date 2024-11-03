@@ -1,6 +1,6 @@
 import Web3Modal from "web3modal";
-import {ethers} from "ethers";
-
+//mport {ethers} from "ethers";
+const ethers = require("ethers")
 const providerOptions = {
 
 }
