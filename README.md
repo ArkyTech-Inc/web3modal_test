@@ -1,4 +1,4 @@
-# Your code is structured to create a React component that renders a button allowing users to connect their cryptocurrency wallet using Web3Modal. Here’s a detailed breakdown of the code, including its purpose, workflow, and improvements.
+Your code is structured to create a React component that renders a button allowing users to connect their cryptocurrency wallet using Web3Modal. Here’s a detailed breakdown of the code, including its purpose, workflow, and improvements.
 
 # Code Walkthrough
 # 1. Import Statements
