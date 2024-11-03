@@ -1,7 +1,7 @@
 Your code is structured to create a React component that renders a button allowing users to connect their cryptocurrency wallet using Web3Modal. Here’s a detailed breakdown of the code, including its purpose, workflow, and improvements.
 
 # Code Walkthrough
-# 1. Import Statements
+ 1. Import Statements
 <!--
 import Web3Modal from "web3modal";
 import { ethers } from "ethers";
@@ -9,19 +9,19 @@ Web3Modal: This import enables the Web3Modal library, which opens a modal to con
 ethers: This import brings in the ethers.js library, a JavaScript library commonly used for interacting with the Ethereum blockchain.
 -->
 
-# 2. Provider Options (Optional Configuration)
+ 2. Provider Options (Optional Configuration)
 <!--
 const providerOptions = {};
 This empty object (providerOptions) is a placeholder for wallet configuration. If you want to support specific wallets or add custom options (e.g., WalletConnect), you would configure them here. For now, leaving it empty will still work, defaulting to basic options provided by Web3Modal.
 -->
 
-# 3. React Component (App)
+ 3. React Component (App)
 <!--
 function App() {
 The App component is a functional React component, representing your entire application interface.
 -->
 
-# 4. Connect Wallet Function (connectWallet)
+ 4. Connect Wallet Function (connectWallet)
 <!--
 async function connectWallet() {
   try {
@@ -53,7 +53,7 @@ Error Handling:
 The catch block logs "error" if an error occurs during the wallet connection process, which could happen if the user declines the wallet connection request or if there's an issue with Web3Modal.
 -->
 
-# 5. Return (JSX) — Rendering the UI
+ 5. Return (JSX) — Rendering the UI
 
 <!--
 return (
